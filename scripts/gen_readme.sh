@@ -6,7 +6,8 @@ echo "`bash summarize_cscan.sh | grep '\[' | sort -u`" > ../cscan.txt
 echo "`bash summarize_servenum.sh | grep '\[' | sort -u`" > ../servenum.txt
 echo "`bash summarize_socenum.sh | grep '\[' | sort -u`" > ../socenum.txt
 echo "`bash summarize_favscan.sh | grep '\[' | sort -u`" > ../favscan.txt
-echo "`bash summarize_idscan.sh | grep '\[' | sort -u`" > ../idcan.txt
+echo "`bash summarize_idscan.sh | grep '\[' | sort -u`" > ../idscan.txt
+echo "`bash summarize_repenum.sh | grep '\[' | sort -u`" > ../repenum.txt
 
 echo "## MODULE-WISE STATS" > ../README.md
 echo "| MODULE | TOTAL COUNT |" >> ../README.md

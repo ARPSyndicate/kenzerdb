@@ -1,10 +1,12 @@
 # KENZERDB | A sample git-repo for storing data for/from Kenzer & Freaker
 
 ## DB Structure
+
 ```
 ├── directory - gatherings from kenzer
 │   ├── domain.com - domain-wise accumulated data
 │   |   ├── subenum.kenz[text] - list of subdomains
+│   |   ├── repenum.kenz[text] - list of reputations of subdomains
 │   |   ├── portenum.kenz[text] - list of open ports
 │   |   ├── webenum.kenz[text] - list of webservers
 │   |   ├── socenum.kenz[text] - list of social media accounts
